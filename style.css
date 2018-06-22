@@ -308,6 +308,7 @@ h2 {
     font-family: "YuGothic";
     text-shadow: 2px 1px 3px #ffffff;
     line-height: 27px;
+
 }
 
 footer {
@@ -315,11 +316,13 @@ footer {
     color: #ffffff;
     background-color: #3E3C8C;
     height: 170px;
+    text-decoration: none;
 }
 
 footer .link {
     padding: 80px 0 30px;
     overflow: hidden;
+    text-decoration: none;
 }
 
 footer a {
