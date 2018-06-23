@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?mte86z');
-  src:  url('fonts/icomoon.eot?mte86z#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?mte86z') format('truetype'),
-    url('fonts/icomoon.woff?mte86z') format('woff'),
-    url('fonts/icomoon.svg?mte86z#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?s7ee2t');
+  src:  url('fonts/icomoon.eot?s7ee2t#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?s7ee2t') format('truetype'),
+    url('fonts/icomoon.woff?s7ee2t') format('woff'),
+    url('fonts/icomoon.svg?s7ee2t#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-dart:before {
+  content: "\e905";
+}
+.icon-css:before {
+  content: "\e904";
+}
+.icon-js:before {
+  content: "\e903";
+}
+.icon-skyward:before {
+  content: "\e901";
+}
 .icon-line:before {
   content: "\e902";
 }
@@ -32,6 +44,30 @@
 }
 .icon-phone:before {
   content: "\e942";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-laptop:before {
+  content: "\e957";
+}
+.icon-mobile:before {
+  content: "\e959";
+}
+.icon-bubbles3:before {
+  content: "\e96f";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-embed:before {
+  content: "\ea7f";
+}
+.icon-embed/:before {
+  content: "\ea80";
 }
 .icon-mail:before {
   content: "\ea84";
@@ -51,9 +87,48 @@
 .icon-twitter:before {
   content: "\ea96";
 }
+.icon-rss:before {
+  content: "\ea9b";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-big-youtube:before {
+  content: "\ea9e";
+}
+.icon-flickr:before {
+  content: "\eaa4";
+}
+.icon-dropbox:before {
+  content: "\eaae";
+}
+.icon-onedrive:before {
+  content: "\eaaf";
+}
 .icon-github:before {
   content: "\eab0";
 }
+.icon-apple:before {
+  content: "\eabe";
+}
+.icon-finder:before {
+  content: "\eabf";
+}
+.icon-android:before {
+  content: "\eac0";
+}
+.icon-windows:before {
+  content: "\eac2";
+}
 .icon-linkedin:before {
   content: "\eac9";
+}
+.icon-html-five:before {
+  content: "\eae4";
+}
+.icon-html-fives:before {
+  content: "\eae5";
+}
+.icon-git:before {
+  content: "\eae7";
 }

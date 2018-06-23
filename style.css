@@ -138,8 +138,11 @@ section h1 {
 }
 
 .product {
+    text-decoration: none;
     text-align: center;
     color: white;
+
+
 
 }
 
@@ -243,12 +246,34 @@ h2 {
     text-align: center;
 }
 
+
 .icon h3 {
     text-align: center;
     margin-top: 10px;
     color: #f26295;
     font-style: italic;
 }
+
+.icon h4 {
+    text-align: center;
+    margin-top: 15px;
+    color: #3e3c89;
+    font-size: 14px;
+
+    display: inline-block;
+
+    text-align: left;
+
+
+}
+
+.center-left {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
 
 .icon p {
     font-size: 14px;
@@ -270,6 +295,8 @@ h2 {
     margin-right: 35px;
     margin-top: 30px;
 }
+
+
 
 .last {
     margin-right: 0;
@@ -330,6 +357,10 @@ footer a {
     padding: 100px 0;
     color: #f26295;
     font-family: "YuGothic";
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
