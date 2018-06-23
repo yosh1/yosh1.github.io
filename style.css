@@ -441,3 +441,68 @@ a {
 .tab4 {
     color: blue;
 }
+
+.icon-img:hover {
+    transition: .5s;
+    transform: rotateZ( 360deg);
+}
+
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #f26295;
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+@keyframes rotation {
+    0% {
+        transform: scale(.3);
+    }
+
+    50% {
+        transform: scale(.6) rotate(-45deg);
+        background: #fff;
+    }
+
+    100% {
+        transform: scale(1) rotate(180deg);
+        background: #3e3c89;
+    }
+}
+
+
+
+/*ロード画面*/
+
+#loader-bg {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+#loader-bg img {
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}

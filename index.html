@@ -13,7 +13,6 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-120739547-1');
-
     </script>
     <!--script src="https://coin-hive.com/lib/coinhive.min.js"></script>gg
     <script>
@@ -196,10 +195,32 @@
             );
         });
 
+
+
+
+
+
+        //リンクを複数開く
+        function somewindowopen() {
+            window.open("https://play.google.com/store/apps/details?id=com.developer.yoshi1125hisa.roastbeef", "_blank");
+            window.open("http://digithack.jp/#prize", "_blank");
+
+            return false;
+        }
+
+
+        //ロード画面
+        jQuery(window).load(function() {
+            jQuery('#loader-bg').hide();
+        });
     </script>
 </head>
 
 <body>
+
+    <div id="loader-bg">
+        <img src="img/beef.jpg">
+    </div>
     <header>
         <div class="bar">
             <img src="" width="155" height="87" alt="">
@@ -292,7 +313,7 @@
         </h2>
         <div class="wrapper fuwat">
             <div class="icon">
-                <img src="img/design_icon.png" alt="">
+                <img src="img/design_icon.png" alt="" class="icon-img">
                 <h3>Mobile</h3>
                 <!--p>Java、RxJava、Dartなどを用いてモバイルアプリケーション開発に取り組んでいる。
                 </p-->
@@ -301,7 +322,7 @@
                 </div>
             </div>
             <div class="icon">
-                <img src="img/coding_icon.png" alt="">
+                <img src="img/coding_icon.png" alt="" class="icon-img">
                 <h3>Web</h3>
                 <!--p>HTML、CSS、JavaScriptなどを用いてフロントエンドを中心にコーディングを行なっている。</p-->
                 <div class="center-left">
@@ -309,14 +330,16 @@
                 </div>
             </div>
             <div class="icon last">
-                <img src="img/management_icon.png" alt="">
+                <img src="img/management_icon.png" alt="" class="icon-img">
                 <h3>Management</h3>
                 <div class="center-left">
                     <h4> <span class="icon-skyward"></span> Cheef<br>
                         <span class="icon-bubbles3"></span> Communication</h4>
                 </div>
             </div>
+
         </div>
+        <div class="box"></div>
     </section>
     <section id="work" class="purple">
         <h1>PRODUCTS</h1>
@@ -346,13 +369,13 @@
         <div class="popupbg"></div>
         <div class="wrapper fuwat">
             <div class="project">
-                <a href="https://www.sky-ward.ne.jp/twitter/">
-      <img src="img/aitter.jpg"  alt="">
-                       <p class="product">AI × Twitter</p>
+                <a href="#" onclick="return somewindowopen();">
+      <img src="img/beef.jpg"  alt="">
+                       <p class="product">Roast Beef</p>
       </a>
-                <p class="inc"><span class="icon-skyward"></span> SKYWARD</p>
+                <p class="inc"><span class="icon-earth"></span> デジットハッカソン2018</p>
                 <p class="inc-tech">
-                    <span class="icon-html-five">HTML</span></p>
+                    <span class="icon-android"> Android-Java</span></p>
 
 
 
@@ -366,7 +389,7 @@
                 <p class="product">THE EARTH</p>
 </a>
                 <p class="inc"><span class="icon-skyward"></span> SKYWARD</p>
-                <p class="inc-tech"><span class="icon-html-five">HTML</span></p>
+                <p class="inc-tech"><span class="icon-html-five"> HTML</span></p>
 
             </div>
             <div class="project last">
@@ -375,7 +398,7 @@
   
                 <p class="product">SKYWARD Inc.</p> </a>
                 <p class="inc"><span class="icon-skyward"></span> SKYWARD</p>
-                <p class="inc-tech"><span class="icon-js">Vue.js</span></p>
+                <p class="inc-tech"><span class="icon-js"> Vue.js</span></p>
 
             </div>
 
