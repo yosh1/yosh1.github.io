@@ -267,11 +267,9 @@ h2 {
     color: #3e3c89;
     font-size: 14px;
 
-    display: inline-block;
+    /*   display: inline-block;
 
-    text-align: left;
-
-
+    text-align: left;*/
 }
 
 .center-left {
