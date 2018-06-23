@@ -152,6 +152,13 @@ section h1 {
     font-size: 6px;
 }
 
+.inc-tech {
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font-size: 5px;
+}
+
 .pupre {
     color: #3e3c89;
 }
