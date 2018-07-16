@@ -194,7 +194,7 @@ h2 {
 
 .name {
     font-size: 34px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     font-weight: bold;
     font-style: italic;
 }
@@ -203,7 +203,7 @@ h2 {
     width: 500px;
     font-family: "YuGothic";
     line-height: 27px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-shadow: 2px 1px 3px #333333;
 }
 
