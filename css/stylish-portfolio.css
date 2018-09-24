@@ -192,6 +192,11 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    transition: all 2s;
+}
+
+.portfolio-item:hover {
+    transform: rotateY(720deg);
 }
 
 .img-portfolio {
