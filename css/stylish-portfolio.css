@@ -19,7 +19,7 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
-    color: indigo;
+    /*    color: indigo;*/
 }
 
 /* Custom Button Styles */
@@ -148,7 +148,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/skyblue.jpg) no-repeat center center scroll;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -187,26 +187,44 @@ hr.small {
 
 /* Portfolio */
 
-.portfolio {
+.portfolio,
+.skill,
+.history,
+.news {
     padding: 50px 0;
 }
 
-.portfolio-item {
+.portfolio-item,
+.skill-item,
+.history-item,
+.news-item {
     margin-bottom: 30px;
     transition: all 2s;
 }
 
-.portfolio-item:hover {
+.portfolio-item:hover,
+.skill-item:hover,
+.history-item:hover,
+.news-item:hover {
     transform: rotateY(720deg);
 }
 
-.img-portfolio {
+.img-portfolio,
+.img-skill,
+.img-history,
+.img-news {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
+.img-portfolio:hover,
+.img-skill:hover,
+.img-history:hover,
+.img-news:hover {
     opacity: 0.8;
 }
+
+
+
 
 /* Call to Action */
 
@@ -291,4 +309,10 @@ h4 {
 .mix {
     transform: translate(10px) rotate(360deg) scale(1, 1);
     /*    opacity: 0.3;*/
+}
+
+
+
+:focus {
+    outline: none;
 }
