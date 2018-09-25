@@ -253,6 +253,11 @@ footer {
     padding: 0.8em;
     list-style-type: none!important;
     /*ポチ消す*/
+    transition: all .15s;
+}
+
+.list-li:hover {
+    transform: skewX(-25deg);
 }
 
 h4 {
@@ -272,9 +277,18 @@ h4 {
     margin-right: 10px;
     /*はみ出ないように調整*/
     padding: 0.5em 0.5em 0.5em 2em;
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
 
 .tag-li {
     line-height: 1.5;
     padding: 0.5em 0;
+}
+
+
+
+.mix {
+    transform: translate(10px) rotate(360deg) scale(1, 1);
+    /*    opacity: 0.3;*/
 }
