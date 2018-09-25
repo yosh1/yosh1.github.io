@@ -19,6 +19,7 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+    /*    color: white;*/
 }
 
 /* Custom Button Styles */
@@ -256,4 +257,24 @@ footer {
 
 h4 {
     margin: 4vh 0;
+}
+
+.tag-ul {
+    list-style: none;
+    background: #f1f8ff;
+    box-shadow: 0px 0px 0px 10px #f1f8ff;
+    /*線の外側*/
+    border: dashed 2px #668ad8;
+    /*破線*/
+    border-radius: 9px;
+    margin-left: 10px;
+    /*はみ出ないように調整*/
+    margin-right: 10px;
+    /*はみ出ないように調整*/
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.tag-li {
+    line-height: 1.5;
+    padding: 0.5em 0;
 }
