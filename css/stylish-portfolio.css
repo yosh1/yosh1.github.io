@@ -316,3 +316,45 @@ h4 {
 :focus {
     outline: none;
 }
+
+.fa {
+    animation: rotateOut 5s infinite;
+}
+
+i.fa:hover {
+    animation: rotateOutUpLeft 1s;
+
+}
+
+span.fa-stack:hover {
+    animation: rotateOutDownRight 3s;
+}
+
+h4 {
+    animation: bounceIn 5s infinite;
+}
+
+p {
+    animation: bounceInOut 5s infinite;
+}
+
+p:hover {
+    animation: shake 4s;
+}
+
+h2:hover {
+    animation: fadeOutRightBig 4s;
+}
+
+li.list-li {
+    animation: zoomInUp 20s;
+}
+
+h1:hover,
+.navbar-brand:hover {
+    animation: hinge 3s infinite;
+}
+
+section {
+    animation: zoomInUp 7s;
+}
