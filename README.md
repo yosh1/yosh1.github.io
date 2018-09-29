@@ -1,7 +1,18 @@
 # https://yoshi1125hisa.github.io
-- This is My Portfolio.
+This is my portfolio.
 
-## What technology:
-1. HTML5
-2. CSS3
-3. ECMAScript6 (JavaScript)
+## Languages
+- HTML5
+- CSS3
+- ECMAScript6 (JavaScript)
+
+## Libraries
+- Bootstrap
+- jQuery
+- animate.css
+- Font-Awesome
+- Google-Font
+
+
+## How to open
+Open `index.html`
