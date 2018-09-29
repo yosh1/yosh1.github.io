@@ -12,7 +12,8 @@ This is my portfolio.
 - animate.css
 - Font-Awesome
 - Google-Font
+- Instantclick
 
 
 ## How to open
-Open `index.html`
+Open `index.html` .
