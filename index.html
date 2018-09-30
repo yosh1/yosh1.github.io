@@ -317,6 +317,13 @@
     <script src="js/bootstrap.min.js "></script>
     <!-- Custom Theme JavaScript -->
     <script>
+        var userAgent = window.navigator.userAgent.toLowerCase();
+
+        if (userAgent.indexOf('msie') != -1) {
+            alert('お使いのブラウザはInternet Explorerですね。他のブラウザを使用されてはいかがでしょうか？');
+
+        }
+
         $('.tag-ul').click(function() {
             $(this).toggleClass('mix');
         });
