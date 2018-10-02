@@ -317,9 +317,11 @@ h4 {
     outline: none;
 }
 
+/*
 .fa {
     animation: rotateOut 5s infinite;
 }
+*/
 
 i.fa:hover {
     animation: rotateOutUpLeft 1s;
@@ -346,15 +348,21 @@ h2:hover {
     animation: fadeOutRightBig 4s;
 }
 
+/*
 li.list-li {
     animation: zoomInUp 20s;
 }
+*/
 
+/*
 h1:hover,
 .navbar-brand:hover {
     animation: hinge 3s infinite;
 }
+*/
 
+/*
 section {
     animation: zoomInUp 7s;
 }
+*/
