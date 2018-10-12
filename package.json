@@ -1,0 +1,27 @@
+{
+  "name": "yoshi1125hisa.github.io",
+  "version": "1.0.1",
+  "description": "This is my portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshi1125hisa/yoshi1125hisa.github.io.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "yoshi1125hisa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoshi1125hisa/yoshi1125hisa.github.io/issues"
+  },
+  "homepage": "https://github.com/yoshi1125hisa/yoshi1125hisa.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
