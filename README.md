@@ -1,4 +1,4 @@
-# https://yoshi1125hisa.github.io
+# https://yoshi1125hisa.com
 This is my portfolio.
 
 ## Languages
