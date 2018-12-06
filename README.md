@@ -1,4 +1,9 @@
 # https://www.yoshi1125hisa.com
+
+[![Lighthouse score: 100/100](https://lighthouse-badge.appspot.com/?score=100&compact&category=SEO)](https://github.com/ebidel/lighthouse-badge)
+
+
+## Description
 This is my portfolio.
 
 ## Languages
