@@ -287,21 +287,13 @@
     <!--     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
     
     <script>
         let userAgent = window.navigator.userAgent.toLowerCase();
 
         if (userAgent.indexOf('msie') != -1) {
             alert('お使いのブラウザはInternet Explorerですね。他のブラウザを使用されてはいかがでしょうか？');
-
         }
-
-        $('body').ripples({
-          resolution: 512,
-          dropRadius: 20,
-          perturbance: 0.04,
-        });
         
         $('.tag-ul').click(function() {
             $(this).toggleClass('mix');
