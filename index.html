@@ -28,6 +28,9 @@
     <link href="css/style.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.15/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.15/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.15/addons/p5.sound.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-120739547-1"></script>
     <script>
@@ -43,6 +46,84 @@
 </head>
 
 <body>
+    <script>
+
+    var hit = false;
+    var wave = [];
+    var lastX,lastY;
+    var wCnt=0;
+    var tim = 0;
+    
+    function setup() {
+      createCanvas(windowWidth, windowHeight);
+      background(100);
+      
+      for (var i=0; i<100; i++) {
+        wave.push(new Waves(i));
+      }
+    
+      noFill();
+    }
+    
+    function draw() {
+    	background(255);
+        stroke(0);
+    
+    
+      tim ++;
+      if(tim>30){
+        tim = 0;
+        wCnt++;
+        if(wCnt>=wave.length)wCnt=0;
+         wave[wCnt].move();
+      }
+    
+      if(abs(pmouseX-mouseX)>4 || abs(pmouseY-mouseY)>4){
+    		
+        wCnt++;
+        if(wCnt>=wave.length)wCnt=0;
+         wave[wCnt].move();
+      
+      }
+      
+      for (var i=0; i<wave.length; i++) {
+        wave[i].display();
+      }
+    }
+    
+    // Waves class
+    function Waves() {
+      this.x = 0;
+      this.xx = 10;
+      this.y = 0;
+      this.yy = 10;
+      this.p = 0.0;
+      this.speed = 0.1
+      this.t = 0;
+      this.id = 0;
+    
+      this.move = function(i) {
+        this.id = i;
+        this.p = 0.01;
+        this.x = mouseX;
+        this.y = mouseY;
+        this.speed = (random(this.speed)+1)/100.0;
+    
+      };
+      
+      this.display = function() {
+        if(this.p < 1.0){
+       
+          this.p += this.speed;
+          stroke(0,255-255*this.p);
+          ellipse(this.x, this.y, this.p*1200,this.p*1200);
+        }else{
+          
+        }
+      };
+    }    
+</script>
+
     <!-- Navigation -->
     <!--a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
@@ -68,6 +149,8 @@
             </li>
         </ul>
     </nav-->
+    <canvas id="defaultCanvas0" style="background-color: transparent;" width="100%" height="100vh"></canvas>
+  
 
     <div class="container d-flex justify-content-center"> <a class="navbar-brand text-primary" href="#">
         <i class="fa d-inline fa-lg fa-circle-o"></i>
