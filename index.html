@@ -43,7 +43,7 @@
 </head>
 
 <body>
-  
+
     <!-- Navigation -->
     <!--a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
@@ -267,6 +267,21 @@
             </div>
         </div>
     </section>
+    <section id="qiita" class="qiita">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Qiita</h2>
+                    <hr class="small">
+                    <a href="http://qiita.com/yoshi1125hisa" data-qiita-widget data-username="yoshi1125hisa">yoshi1125hisaのQiita投稿</a>
+                    <script src="https://suin.github.io/qiita-widget/widget.js" defer></script>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <footer>
         <div class="container">
             <div class="row">
@@ -302,18 +317,18 @@
     <!--     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    
+
     <script>
         let userAgent = window.navigator.userAgent.toLowerCase();
 
         if (userAgent.indexOf('msie') != -1) {
             alert('お使いのブラウザはInternet Explorerですね。他のブラウザを使用されてはいかがでしょうか？');
         }
-        
+
         $('.tag-ul').click(function() {
             $(this).toggleClass('mix');
         });
-        
+
         // Closes the sidebar menu
         $("#menu-close ").click(function(e) {
             e.preventDefault();
