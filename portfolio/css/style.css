@@ -70,6 +70,8 @@ body {
 
 .top-menu__list{
     display: flex;
+    list-style: none;
+    padding-left: 0;
 }
 
 .top-menu__list-content{
