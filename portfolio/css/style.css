@@ -1,0 +1,25 @@
+* {
+    font-family: 'LucidaGrande';
+}
+
+html,
+body {
+    width: 100%;
+}
+
+@media screen and (min-width: 580px) {
+    .br-sp {
+        display: none;
+    }
+}
+
+
+.header-box {}
+.header-box__title {}
+.header-box__text {}
+.header-box {}
+.header-box__sns{}
+.header-box__sns-icon{}
+.header-box__sns-icon1{}
+.header-box__sns-icon2{}
+.header-box__sns-icon3{}
