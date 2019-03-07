@@ -1,6 +1,12 @@
 * {
 }
 
+
+* a{
+    color: inherit;
+    text-decoration: none;
+}
+
 html,
 body {
     width: 100%;
@@ -14,14 +20,15 @@ body {
 }
 
 
+
 .header {
-    margin: 7% 110px;
+    margin: 8% 110px;
     height: 33px;
     width: 90%;
     display: flex;
 }
 .header__title {
-    
+
 }
 .header__text {
     font-family: 'LucidaGrande';
@@ -43,6 +50,7 @@ body {
 .header__sns-icon{
     font-size: 33px;
     margin: 0 40px 0 0;
+    color: conic-gradient(rgba(228, 205, 111, 0.88) 19%, #22b5ff 80%, rgba(228, 205, 111, 0.88) 19%);
 }
 .header__sns-icon1{
 }
@@ -78,4 +86,16 @@ body {
 
 .top-box{
 
+}
+
+.section {
+    margin-top: 130px;
+}
+
+.section__about {
+
+}
+
+.section__work {
+    
 }
