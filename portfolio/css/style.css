@@ -53,11 +53,14 @@ body {
     color: conic-gradient(rgba(228, 205, 111, 0.88) 19%, #22b5ff 80%, rgba(228, 205, 111, 0.88) 19%);
 }
 .header__sns-icon1{
+    color: #000;
 }
-.header__sns-icon2{
 
+.header__sns-icon2{
+    color: #0e0e85;
 }
 .header__sns-icon3{
+    color: #8282ff;
 }
 
 .top-menu{
@@ -88,6 +91,9 @@ body {
 
 }
 
+.top-box__img {
+    width: 100%;
+}
 .section {
     margin-top: 130px;
 }
