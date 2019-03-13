@@ -1,4 +1,5 @@
 * {
+    font-family: 'LucidaGrande';
 }
 
 
@@ -20,18 +21,16 @@ body {
 }
 
 
-
 .header {
-    margin: 8% 110px;
+    margin: 9% 8%;
     height: 33px;
-    width: 90%;
+    width: 84%;
     display: flex;
 }
 .header__title {
 
 }
 .header__text {
-    font-family: 'LucidaGrande';
     font-size: 30px;
     font-weight: bold;
     font-style: normal;
@@ -61,6 +60,7 @@ body {
 }
 .header__sns-icon3{
     color: #8282ff;
+    margin-right: 0;
 }
 
 .top-menu{
@@ -104,10 +104,43 @@ body {
     width: 80%;
     margin: 0 10%;
 }
-.section__about {
+#section__about {
+}
 
+.about-img{
+    width: 66%;
+
+}
+
+.english-name{
+    padding-top: 50px;
+    font-size: 20px;
+    letter-spacing: 3.14px;
+}
+.japanese-name{
+    margin-top: 20px;
+    font-size: 47px;
+    letter-spacing: 4.27px;
+}
+
+.about-me{
+    font-size: 18px;
+    margin-top: 180px;
+    line-height: 26px;
+    text-align: right;
+    letter-spacing: 3.07px;
+}
+
+.about-me__description{
+    margin-top: 80px;
+    line-height: 25px;
+    letter-spacing: 5.54px;
+    font-family: 'Hiragino Sans';
+    font-size: 15px;
+    font-weight: 200;
 }
 
 .section__work {
 
 }
+
