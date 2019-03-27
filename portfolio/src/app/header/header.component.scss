@@ -1,0 +1,72 @@
+
+.header {
+    margin: 5% 8%;
+    height: 33px;
+    width: 84%;
+    display: flex;
+    &__title {
+        display: block;
+    }
+    &__text {
+        font-size: 30px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 4.3px;
+        color: #000000;
+    }
+    &__sns {
+        display: flex;
+        margin-left: 55%;
+        &-icon {
+            font-size: 33px;
+            margin: 0 40px 0 0;
+            color: conic-gradient(rgba(228, 205, 111, 0.88) 19%, #22b5ff 80%, rgba(228, 205, 111, 0.88) 19%);
+            &1 {
+                color: #000;
+            }
+            
+            &2 {
+                color: #0e0e85;
+            }
+            &3 {
+                color: #8282ff;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+
+.top-menu {
+    width: 80%;
+    margin: 5% 10%;
+    &__list {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        &-content {
+            width: 70px;
+            height: 21px;
+            font-family: LucidaGrande;
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 3.3px;
+            text-align: center;
+            color: #000000;
+            margin: 0 7%;
+        }
+    }
+}
+
+.top-box {
+    margin-top: 130px;
+    &__img {
+        height: 560px;
+        width: 100%
+    }
+}
