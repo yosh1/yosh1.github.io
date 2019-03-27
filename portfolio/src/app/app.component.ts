@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faGithub, faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'portfolio';
+  title = 'yoshi\'s portfolio';
+  faGithub = faGithub;
+  faTwitter = faTwitter;
+  faFacebook = faFacebook;
 }
