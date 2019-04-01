@@ -3,6 +3,7 @@
     height: 33px;
     width: 84%;
     display: flex;
+    justify-content: space-between;
     &__line {
         border: 7px solid;
         border-image: linear-gradient(to left, #FFFFFF 0%, #69DBD5 100%);
@@ -27,7 +28,6 @@
     }
     &__sns {
         display: flex;
-        margin-left: 55%;
         &-icon {
             font-size: 32px;
             margin: 0 40px 0 0;
