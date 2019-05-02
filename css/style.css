@@ -136,7 +136,7 @@ hr.small {
     right: 0;
 }
 
-#sidebar-wrapper.active {
+/* #sidebar-wrapper.active {
     right: 250px;
     width: 250px;
     -webkit-transition: all 0.4s ease 0s;
@@ -144,7 +144,7 @@ hr.small {
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-}
+} */
 
 .toggle {
     margin: 5px 5px 0 0;
@@ -158,7 +158,7 @@ hr.small {
     width: 100%;
     height: 100%;
 
-    background: url(../img/beautiful_sky.jpg) no-repeat center center scroll;
+    background: url(../img/linkedin_banner_image_2.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -212,12 +212,12 @@ hr.small {
     transition: all 2s;
 }
 
-.portfolio-item:hover,
+/* .portfolio-item:hover,
 .skill-item:hover,
 .history-item:hover,
 .news-item:hover {
     transform: rotateY(720deg);
-}
+} */
 
 .img-portfolio,
 .img-skill,
@@ -316,10 +316,10 @@ h4 {
 
 
 
-.mix {
+/* .mix {
     transform: translate(10px) rotate(360deg) scale(1, 1);
     /*    opacity: 0.3;*/
-}
+} */
 
 
 
@@ -332,7 +332,7 @@ h4 {
     animation: rotateOut 5s infinite;
 }
 */
-
+/* 
 i.fa:hover {
     animation: rotateOutUpLeft 1s;
 
@@ -348,15 +348,15 @@ h4 {
 
 p {
     animation: bounceInOut 5s infinite;
-}
+} */
 
-p:hover {
+/* p:hover {
     animation: shake 4s;
-}
+} */
 
-h2:hover {
+/* h2:hover {
     animation: fadeOutRightBig 4s;
-}
+} */
 
 /*
 li.list-li {
@@ -376,3 +376,7 @@ section {
     animation: zoomInUp 7s;
 }
 */
+
+.top-text{
+    mix-blend-mode: difference;
+}
