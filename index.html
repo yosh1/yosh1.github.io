@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="img/icon.ico">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>yoshi1125hisa's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@
     <meta name="twitter:title" content="yoshi1125hisa's portfolio site">
     <meta name="twitter:description" content="yoshi1125hisa's portfolio site">
     <meta name="twitter:url" content="https://yoshi1125hisa.github.io/">
-    <link rel="shortcut icon" href="img/icon.ico">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -329,44 +329,13 @@ fjs.parentNode.insertBefore(js, fjs); t._e = []; t.ready = function(f) { t._e.pu
     </footer>
     <!--     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
 
     <script>
         let userAgent = window.navigator.userAgent.toLowerCase();
-
         if (userAgent.indexOf('msie') != -1) {
             alert('お使いのブラウザはInternet Explorerですね。他のブラウザを使用されてはいかがでしょうか？');
         }
-
-        $('.tag-ul').click(function() {
-            $(this).toggleClass('mix');
-        });
-
-        // Closes the sidebar menu
-        $("#menu-close ").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper ").toggleClass("active ");
-        });
-        // Opens the sidebar menu
-        $("#menu-toggle ").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper ").toggleClass("active ");
-        });
-        // Scrolls to the selected menu item on the page
-        $(function() {
-            $('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-        });
 
     </script>
 </body>
