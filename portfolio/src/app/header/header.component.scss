@@ -8,10 +8,12 @@
         border: 7px solid;
         border-image: linear-gradient(to left, #FFFFFF 0%, #69DBD5 100%);
         border-image-slice: 1;
-        width: 100%;
+        width: 98%;
         position: absolute;
         top: 0%;
-        left: 0%;;
+        left: 0%;
+        margin: 0;
+        padding: 0;
     }
     &__title {
         display: block;
