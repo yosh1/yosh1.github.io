@@ -22,7 +22,7 @@
     "test": "npm-run-all -p dev scss prefix"
   },
   "devDependencies": {
-    "autoprefixer": "9.5.1",
+    "autoprefixer": "9.6.0",
     "postcss-import": "12.0.1",
     "postcss-loader": "3.0.0"
   },
