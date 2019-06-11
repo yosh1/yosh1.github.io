@@ -33,7 +33,7 @@
     "normalize.css": "8.0.1",
     "rxjs": "6.3.3",
     "tslib": "1.9.3",
-    "yarn": "1.15.2",
+    "yarn": "1.16.0",
     "zone.js": "0.8.29"
   },
   "devDependencies": {
