@@ -31,7 +31,7 @@
     "dom": "0.0.3",
     "font-awesome": "4.7.0",
     "normalize.css": "8.0.1",
-    "rxjs": "6.3.3",
+    "rxjs": "6.5.2",
     "tslib": "1.9.3",
     "yarn": "1.15.2",
     "zone.js": "0.8.29"
