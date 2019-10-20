@@ -1,3 +1,5 @@
+<!-- @charset "Shift_JIS"; -->
+
 # 誰？
 
 **Yoshihisa Kaino** (2001年生まれ、17歳の高校3年生)
