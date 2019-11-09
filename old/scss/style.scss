@@ -1,0 +1,229 @@
+* {
+    letter-spacing: 1.5px;
+    font-family: 'Noto Serif JP', serif;
+}
+
+@media screen and (min-width: 580px) {
+    .br-sp {
+        display: none;
+    }
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+     h1 {
+         margin: 0;
+         padding: 0;
+         font-size: 4.5em;
+         font-weight: 700;
+         /*    color: indigo;*/
+     }
+}
+
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 92%;
+    background: url(../img/linkedin_banner_image_2.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio,
+.skill,
+.history,
+.news {
+    padding: 50px 0;
+}
+
+.portfolio-item,
+.skill-item,
+.history-item,
+.news-item {
+    margin-bottom: 30px;
+    transition: all 2s;
+}
+
+/* .portfolio-item:hover,
+.skill-item:hover,
+.history-item:hover,
+.news-item:hover {
+    transform: rotateY(720deg);
+} */
+
+.img-portfolio,
+.img-skill,
+.img-history,
+.img-news {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover,
+.img-skill:hover,
+.img-history:hover,
+.img-news:hover {
+    opacity: 0.8;
+}
+
+
+
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+}
+
+.list-ul {
+    padding: 0;
+    position: relative;
+}
+
+.list-li {
+    color: #2d8fdd;
+    border-left: solid 6px #2d8fdd;
+    /*左側の線*/
+    background: #f1f8ff;
+    /*背景色*/
+    margin-bottom: 3px;
+    /*下のバーとの余白*/
+    line-height: 1.5;
+    padding: 0.8em;
+    list-style-type: none!important;
+    /*ポチ消す*/
+    transition: all .15s;
+}
+
+.list-li:hover {
+    transform: skewX(-25deg);
+}
+
+h4 {
+    margin: 4vh 0;
+}
+
+.tag-ul {
+    list-style: none;
+    background: #f1f8ff;
+    box-shadow: 0px 0px 0px 10px #f1f8ff;
+    /*線の外側*/
+    border: dashed 2px #668ad8;
+    /*破線*/
+    border-radius: 9px;
+    margin-left: 10px;
+    /*はみ出ないように調整*/
+    margin-right: 10px;
+    /*はみ出ないように調整*/
+    padding: 0.5em 0.5em 0.5em 2em;
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+.tag-li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
+:focus {
+    outline: none;
+}
